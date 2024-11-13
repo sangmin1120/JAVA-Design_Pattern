@@ -11,10 +11,14 @@ public class Main {
         // 3. 동작 확인 (off -> on)
         light.on_button_push();
 
-        // 4. 동작 확인 (on -> on)
+        // 4. 동작 확인 (on -> sleeping)
         light.on_button_push();
 
-        // 5. 동작 확인 (on -> off)
+        // 5. 동작 확인 (sleeping -> on)
+        light.on_button_push();
+
+        // 6. 동작 확인 (on -> sleeping -> off)
+        light.on_button_push();
         light.off_button_push();
     }
 }

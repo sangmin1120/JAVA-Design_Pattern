@@ -1,3 +1,8 @@
+/*
+파일 : Main.java
+생성 : 2024-11-14
+내용 : light 객체를 호출해 상태 변환 확인
+ */
 package state.연습1;
 
 public class Main {
